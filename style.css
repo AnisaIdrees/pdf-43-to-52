@@ -1,0 +1,41 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 70px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.box h1 {
+    color: white;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.box input {
+    width: 190px;
+    padding: 8px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+form p {
+    color: white;
+} .submit:hover{
+background-color: rgb(33, 250, 4);
+transition: .5s ease-in-out;
+}
